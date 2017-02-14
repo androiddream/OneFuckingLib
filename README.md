@@ -49,8 +49,7 @@ apply plugin: 'com.jakewharton.hugo'//打印log的工具，可选
 ```
 
 ## Proguard rules
-建议打开混淆。 [添加混淆](https://github.com/DanteAndroid/OneLib/blob/master/onelib/proguard-rules.pro)
-
+建议打开混淆。 [复制混淆规则](https://github.com/DanteAndroid/OneLib/blob/master/onelib/proguard-rules.pro) 或者使用` compile 'com.hwangjr.proguard:proguardconfig:1.0.1@aar' `这个混淆库来混淆（使用此库后，其他第三方库也不需要你担心混淆的事情了）
 ## Q&A
 - 集成这个库是否会使APK增大很多？<br>
 A: 你可以开启混淆来减少apk体积。如果这些库大部分都是您用到的，那么集成此库与分别继承基本没区别；如果有很多用不到，你可以在app的`build.gradle`中启用`shrinkResources true`来移除无用资源（没有被调用的代码都会被移除）
