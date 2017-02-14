@@ -14,6 +14,6 @@ public class OneLib {
 
     public static void init(Context context) {
         OneLib.context = context.getApplicationContext();
-//        Utils.init(context);
+        Utils.init(context);
     }
 }
