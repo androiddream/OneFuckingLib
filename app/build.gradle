@@ -29,6 +29,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
-//    compile project(':onelib')
-    compile 'com.github.DanteAndroid:OneFuckingLib:v0.5'
+    compile project(':onelib')
+//    compile 'com.github.DanteAndroid:OneFuckingLib:v0.6'
 }
