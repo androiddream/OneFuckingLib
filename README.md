@@ -6,7 +6,7 @@
 新建项目，依赖这个库，你就可以写一个完整的app！
 
 ## What is it
-OneFuckingLib 集成了Android常用的第三方库，有官方控件、Rxjava、Glide、Gson、[工具类](https://github.com/Blankj/AndroidUtilCode)、[BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) 等等。具体库请查看[build.gradle](https://github.com/DanteAndroid/OneFuckingLib/blob/master/onelib/build.gradle#L36)
+`OneFuckingLib`集成了Android常用的第三方库，有官方控件、Rxjava、Glide、Gson、[工具类](https://github.com/Blankj/AndroidUtilCode)、[BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) 等等。具体库请查看[build.gradle](https://github.com/DanteAndroid/OneFuckingLib/blob/master/onelib/build.gradle#L36)
 
 ## How to use
 
