@@ -15,8 +15,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        **classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1' //打印log的工具
-    }
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1' //打印log的工具，可选
+    }
 }
 
 allprojects {
@@ -28,7 +28,7 @@ allprojects {
 
 2. 复制代码到app模块的`build.gradle`
 ```
-apply plugin: 'com.jakewharton.hugo'//打印log的工具
+apply plugin: 'com.jakewharton.hugo'//打印log的工具，可选
 
 //other configurations
 
