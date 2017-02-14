@@ -35,7 +35,7 @@ apply plugin: 'com.jakewharton.hugo'//打印log的工具，可选
 //other configurations
 
   dependencies {
-      compile 'com.github.DanteAndroid:OneFuckingLib:v版本号'//版本号见上面图标
+      compile 'com.github.DanteAndroid:OneFuckingLib:v0.8'//最新版本号见上面图标
   }
 ```
 
