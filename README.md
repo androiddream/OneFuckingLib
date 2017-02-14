@@ -38,6 +38,15 @@ apply plugin: 'com.jakewharton.hugo'//打印log的工具，可选
   }
 ```
 
+3.在自定义application中初始化
+```
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        OneLib.init(this);
+    }
+```
+
 ## Proguard rules
 建议打开混淆。 [添加混淆](https://github.com/DanteAndroid/OneLib/blob/master/onelib/proguard-rules.pro)
 
