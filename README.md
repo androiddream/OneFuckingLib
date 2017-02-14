@@ -39,10 +39,10 @@ apply plugin: 'com.jakewharton.hugo'//打印log的工具，可选
 ```
 
 ## Q&A
-- 集成这个库是否会使APK增大很多？
-A: 集成第三方库当然会使你的apk增大，但是你可以开启混淆来减少apk体积。如果这些库大部分都是您用到的，那么集成此库与分别继承基本没区别；如果有很多用不到，你可以在app的`build.gradle`中启用`shrinkResources true`来移除无用资源（没有被调用的代码都会被移除）
+- 集成这个库是否会使APK增大很多？<br>
+A: 你可以开启混淆来减少apk体积。如果这些库大部分都是您用到的，那么集成此库与分别继承基本没区别；如果有很多用不到，你可以在app的`build.gradle`中启用`shrinkResources true`来移除无用资源（没有被调用的代码都会被移除）
 
-- 我不需要 Rxjava 怎么办<br>
+- 我不需要 Rxjava 怎么办？<br>
 A: 请到 https://github.com/DanteAndroid/OneLib 这个库是基本版（无Rxjava）。
 
 - 好多库我都用不到/能不能加上xx库？<br>
