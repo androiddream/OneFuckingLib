@@ -9,7 +9,7 @@
 **OneFuckingLib**集成了Android常用的第三方库，有官方控件、Rxjava系列、Glide、Gson、[工具类](https://github.com/Blankj/AndroidUtilCode)、[BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) 等等。具体库请查看 [build.gradle](https://github.com/DanteAndroid/OneFuckingLib/blob/master/onelib/build.gradle#L36)
 
 ## How to use
-
+[![](https://jitpack.io/v/DanteAndroid/OneFuckingLib.svg)](https://jitpack.io/#DanteAndroid/OneFuckingLib)
 1.复制代码到**项目**(不是app，是project)的`build.gradle`文件里
 
 ```
@@ -34,7 +34,7 @@ apply plugin: 'com.jakewharton.hugo'//打印log的工具，可选
 //other configurations
 
   dependencies {
-      compile 'com.github.DanteAndroid:OneFuckingLib:v0.3'
+      compile 'com.github.DanteAndroid:OneFuckingLib:$version'//$version为最新版本号
   }
 ```
 
