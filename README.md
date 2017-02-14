@@ -10,6 +10,7 @@
 
 ## How to use
 [![](https://jitpack.io/v/DanteAndroid/OneFuckingLib.svg)](https://jitpack.io/#DanteAndroid/OneFuckingLib)
+
 1.复制代码到**项目**(不是app，是project)的`build.gradle`文件里
 
 ```
