@@ -40,7 +40,7 @@ apply plugin: 'com.jakewharton.hugo'//打印log的工具，可选
 
 ## Q&A
 - 我不需要 Rxjava 怎么办<br>
-A: 请到 https://github.com/DanteAndroid/OneLib， 这个库是基本版（无Rxjava）。
+A: 请到 https://github.com/DanteAndroid/OneLib 这个库是基本版（无Rxjava）。
 
 - 好多库我都用不到/能不能加上xx库？<br>
 A: 您可以[向我推荐库](github.com/DanteAndroid/OneFuckingLib/issues/new)或者 Pull Request. 如果是热门库我会考虑添加/修改。如果还不满足您的需求，可以直接联系我做一个您专用的库
