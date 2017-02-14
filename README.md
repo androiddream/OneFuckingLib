@@ -11,9 +11,6 @@ You just need one fucking library.
 1. 复制代码到**项目**(不是app，是project)的`build.gradle`文件里
 ```
 buildscript {
-    repositories {
-        jcenter()
-    }
     dependencies {
         classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1' //打印log的工具，可选
     }
