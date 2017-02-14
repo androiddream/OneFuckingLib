@@ -46,7 +46,7 @@ A: 你可以开启混淆来减少apk体积。如果这些库大部分都是您�
 A: 请到 https://github.com/DanteAndroid/OneLib 这个库是基本版（无Rxjava）。
 
 - 好多库我都用不到/能不能加上xx库？<br>
-A: 您可以[向我推荐库](github.com/DanteAndroid/OneFuckingLib/issues/new)或者 Pull Request. 如果是热门库我会考虑添加/修改。如果还不满足您的需求，可以直接[联系我](mailto:502273376@qq.com)做一个您专用的库
+A: 您可以[向我推荐库](https://github.com/DanteAndroid/OneFuckingLib/issues/new)或者 Pull Request. 如果是热门库我会考虑添加/修改。如果还不满足您的需求，可以直接[联系我](mailto:502273376@qq.com)做一个您专用的库
 
 - 打印log的工具怎么使用？<br>
 A: 是[Hugo](https://github.com/JakeWharton/hugo)，我最近才发现的，挺好用。用法很简单，在你需要打印的方法上面加上`@DebugLog`注解，就可以自动打印参数和返回值。release版本不打印。
